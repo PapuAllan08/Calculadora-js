@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #48e, #666);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  border: 2px solid black;
+  background-color: #ddd;
+  max-width: 550px;
+  height: 750px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  box-shadow: 0px 0px 100px 0px rgb(66, 165, 148);
+}
+
+input[type="text"] {
+  margin: auto;
+  text-align: right;
+  width: 550px;
+  height: 100px;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-decoration: solid;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botones {
+  background-color: #48e;
+  margin: 10px;
+  width: 110px;
+  height: 110px;
+  font-size: 40px;
+}
+
+.finales {
+  background-color: #48e;
+  margin: 10px;
+  width: 150px;
+  height: 110px;
+  font-size: 40px;
+}
+
+.fila_final {
+  display: flex;
+  justify-content: space-between;
+}
+
+.operadores {
+  background: #222;
+  margin: 10px;
+  width: 110px;
+  height: 110px;
+  font-size: 40px;
+  color: white;
+}
+
+.operadores_ultimos {
+  margin: 10px;
+  width: 150px;
+  height: 110px;
+  font-size: 40px;
+  color: white;
+  background: #222;
+}
