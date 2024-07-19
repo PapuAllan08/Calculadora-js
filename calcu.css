@@ -1,11 +1,19 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #48e, #666);
   font-family: Arial, Helvetica, sans-serif;
+  z-index: 0;
+}
+video{
+  z-index: -1;
+  position: fixed;
+  background-position: 100%;
+  background-repeat: no-repeat;
 }
 
 .container {
+  z-index: 2;
+  margin: auto;
   border: 2px solid black;
   background-color: #ddd;
   max-width: 550px;
@@ -13,7 +21,6 @@ body {
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
   box-shadow: 0px 0px 100px 0px rgb(66, 165, 148);
 }
 
@@ -33,7 +40,7 @@ input[type="text"] {
   justify-content: space-between;
 }
 
-.butones {
+.numero {
   background-color: #48e;
   margin: 10px;
   width: 110px;
@@ -54,7 +61,7 @@ input[type="text"] {
   justify-content: space-between;
 }
 
-.operadores {
+.function, .operadores, .Limpiar {
   background: #222;
   margin: 10px;
   width: 110px;

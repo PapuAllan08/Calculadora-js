@@ -1,4 +1,4 @@
-+<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,39 +7,43 @@
     <link rel="stylesheet" href="calcu.css" />
   </head>
   <body>
+    <video src="video.mp4" autoplay="true" muted="true" loop="true"></video>
     <div class="container">
-      <div class="text-box">
-      <input type="text" name="calculadora" id="" />
+      <div class="text-box"> 
+        <input type="text" class="textbox-input" name="calculadora" readonly/>
+      </div>
+      <div class="teclas">
+      <div class="fila">
+        <button data-type="function" class="function">√X</button>
+        <button data-type="function" class="function">X^</button>
+        <button data-type="operador" class="function">/</button>
+      <button data-type="clear" class="Limpiar">C</button>
       </div>
       <div class="fila">
-        <button data-type="function">√X</button>
-        <button data-type="function">X^</button>
-        <button data-type="function">/</button>
-      <button data-type="Limpiar">C</button>
-      </div>
-      <div class="fila">
-        <button data-type="numero">8</button>
-        <button data-type="numero">7</button>
-        <button data-type="numero">9</button>
-        <button data-type="operadores">*</button>
+        <button data-type="numero" class="numero">7</button>
+        <button data-type="numero" class="numero">8</button>
+        <button data-type="numero" class="numero">9</button>
+        <button data-type="operador" class="operadores">*</button>
         </div>
         <div class="fila">
-          <button data-type="numero">4</button>
-          <button data-type="numero">5</button>
-          <button data-type="numero">6</button>
-          <button data-type="operadores">+</button>
+          <button data-type="numero" class="numero">4</button>
+          <button data-type="numero" class="numero">5</button>
+          <button data-type="numero" class="numero">6</button>
+          <button data-type="operador" class="operadores">+</button>
           </div>
           <div class="fila">
-            <button data-type="numero">3</button>
-            <button data-type="numero">2</button>
-            <button data-type="numero">1</button>
-            <button data-type="operadores">-</button>
+            <button data-type="numero" class="numero">3</button>
+            <button data-type="numero" class="numero">2</button>
+            <button data-type="numero" class="numero">1</button>
+            <button data-type="operador" class="operadores">-</button>
             </div>
           <div class="fila_final">
-            <button data-type="numero">0</button>
-            <button data-type="operadores_ultimos">.</button>
-            <button data-type="operadores_ultimos">=</button>
+            <button data-type="numero" class="finales">0</button>
+            <button data-type="numero" class="operadores_ultimos">.</button>
+            <button data-type="igual" class="operadores_ultimos">=</button>
             </div>
+            </div>
+    </div>
     </div>
     <script src="JavaScript/calcu.js"></script>
   </body>
