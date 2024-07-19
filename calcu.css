@@ -18,6 +18,7 @@ body {
 }
 
 input[type="text"] {
+  background-color:#ddd;
   margin: auto;
   text-align: right;
   width: 550px;
@@ -32,7 +33,7 @@ input[type="text"] {
   justify-content: space-between;
 }
 
-.botones {
+.butones {
   background-color: #48e;
   margin: 10px;
   width: 110px;

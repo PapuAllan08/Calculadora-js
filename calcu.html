@@ -8,36 +8,39 @@
   </head>
   <body>
     <div class="container">
+      <div class="text-box">
       <input type="text" name="calculadora" id="" />
-      <div class="fila">
-        <button class="operadores">√X</button>
-        <button class="operadores">X^</button>
-        <button class="operadores">/</button>
-      <button class="operadores">C</button>
       </div>
       <div class="fila">
-        <button class="botones">7</button>
-        <button class="botones">8</button>
-        <button class="botones">9</button>
-        <button class="operadores">*</button>
+        <button data-type="function">√X</button>
+        <button data-type="function">X^</button>
+        <button data-type="function">/</button>
+      <button data-type="Limpiar">C</button>
+      </div>
+      <div class="fila">
+        <button data-type="numero">8</button>
+        <button data-type="numero">7</button>
+        <button data-type="numero">9</button>
+        <button data-type="operadores">*</button>
         </div>
         <div class="fila">
-          <button class="botones">4</button>
-          <button class="botones">5</button>
-          <button class="botones">6</button>
-          <button class="operadores">+</button>
+          <button data-type="numero">4</button>
+          <button data-type="numero">5</button>
+          <button data-type="numero">6</button>
+          <button data-type="operadores">+</button>
           </div>
           <div class="fila">
-            <button class="botones">3</button>
-            <button class="botones">2</button>
-            <button class="botones">1</button>
-            <button class="operadores">-</button>
+            <button data-type="numero">3</button>
+            <button data-type="numero">2</button>
+            <button data-type="numero">1</button>
+            <button data-type="operadores">-</button>
             </div>
           <div class="fila_final">
-            <button class="finales">0</button>
-            <button class="operadores_ultimos">.</button>
-            <button class="operadores_ultimos">=</button>
+            <button data-type="numero">0</button>
+            <button data-type="operadores_ultimos">.</button>
+            <button data-type="operadores_ultimos">=</button>
             </div>
     </div>
+    <script src="JavaScript/calcu.js"></script>
   </body>
 </html>
