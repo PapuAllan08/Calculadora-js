@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let dato = "";
   let dato2 = "";
   let operador = "";
-
+//este es para que se muestren los numeros dentro de la textbox-input
   const actions = {
     numero: function (value) {
       dato += value;
@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         dato = "";
       }
     },
+    //formula para la raiz
     function: function (value) {
       if (value === "√X") {
         dato = Math.sqrt(parseFloat(dato)).toString();
